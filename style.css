@@ -183,7 +183,7 @@ header p {
     border-top: 4px solid var(--clr-primary-blue);
     position: absolute;
     top: 21.875rem;
-    right: 0;
+    left: 46.803rem;
     margin: 0;
   }
 }
