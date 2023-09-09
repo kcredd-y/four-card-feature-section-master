@@ -121,7 +121,6 @@ header p {
     margin: 5.9375rem 10.3125rem;
     text-align: center;
     position: relative;
-    
   }
   h2,
   h1 {
@@ -130,7 +129,6 @@ header p {
   }
 
   header p {
-    
     padding: 0 17.55rem;
   }
 
@@ -145,7 +143,7 @@ header p {
     font-size: 1.4em;
   }
 
-  .card__description{
+  .card__description {
     font-size: 0.9em;
     text-align: left;
   }
@@ -163,7 +161,7 @@ header p {
     /* 21.875rem */
   }
 
-  .card:nth-of-type(2){
+  .card:nth-of-type(2) {
     border-top: 4px solid var(--clr-primary-red);
     position: absolute;
     top: 13.4375rem;
@@ -171,19 +169,25 @@ header p {
     margin: 0;
   }
 
-  .card:nth-of-type(3){
+  .card:nth-of-type(3) {
     border-top: 4px solid var(--clr-primary-orange);
     position: absolute;
     margin: 0;
     top: 30.625rem;
     left: 23.4015rem;
   }
-  
-  .card:nth-of-type(4){
+
+  .card:nth-of-type(4) {
     border-top: 4px solid var(--clr-primary-blue);
     position: absolute;
     top: 21.875rem;
     left: 46.803rem;
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  body {
+    margin:  5.9375rem 25rem;
   }
 }
